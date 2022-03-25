@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Feluda",
+        "img": "https://i.pinimg.com/736x/23/e6/02/23e6029c5285471338418f1556811ce9.jpg",
+        "price": "540"
+    },
+    {
+        "id": 2,
+        "name": "Bomkesh Boksi",
+        "img": "https://i.pinimg.com/736x/23/e6/02/23e6029c5285471338418f1556811ce9.jpg",
+        "price": "900"
+    },
+    {
+        "id": 3,
+        "name": "Professor Shonku",
+        "img": "https://i.pinimg.com/736x/23/e6/02/23e6029c5285471338418f1556811ce9.jpg",
+        "price": "900"
+    },
+    {
+        "id": 4,
+        "name": "The Vinci Code",
+        "img": "https://i.pinimg.com/736x/23/e6/02/23e6029c5285471338418f1556811ce9.jpg",
+        "price": "1000"
+    },
+    {
+        "id": 5,
+        "name": "The Last Templar",
+        "img": "https://i.pinimg.com/736x/23/e6/02/23e6029c5285471338418f1556811ce9.jpg",
+        "price": "1720"
+    },
+    {
+        "id": 6,
+        "name": "Count of Monte Cristo",
+        "img": "https://i.pinimg.com/736x/23/e6/02/23e6029c5285471338418f1556811ce9.jpg",
+        "price": "1900"
+    },
+    {
+        "id": 7,
+        "name": "David Copperfield",
+        "img": "https://i.pinimg.com/736x/23/e6/02/23e6029c5285471338418f1556811ce9.jpg",
+        "price": "5430"
+    },
+    {
+        "id": 8,
+        "name": "20 Thousands Leags Under The Sea",
+        "img": "https://i.pinimg.com/736x/23/e6/02/23e6029c5285471338418f1556811ce9.jpg",
+        "price": "570"
+    },
+    {
+        "id": 9,
+        "name": "Robinson Cruso",
+        "img": "https://i.pinimg.com/736x/23/e6/02/23e6029c5285471338418f1556811ce9.jpg",
+        "price": "970"
+    },
+    {
+        "id": 10,
+        "name": "The Naked Face",
+        "img": "https://i.pinimg.com/736x/23/e6/02/23e6029c5285471338418f1556811ce9.jpg",
+        "price": "800"
+    },
+    {
+        "id": 11,
+        "name": "Rich Dad Poor Dad",
+        "img": "https://i.pinimg.com/736x/23/e6/02/23e6029c5285471338418f1556811ce9.jpg",
+        "price": "750"
+    },
+    {
+        "id": 12,
+        "name": "Harry Potter",
+        "img": "https://i.pinimg.com/736x/23/e6/02/23e6029c5285471338418f1556811ce9.jpg",
+        "price": "880"
+    }
+]

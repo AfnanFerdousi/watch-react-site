@@ -1,0 +1,9 @@
+.p-border{
+    border: 1px solid orange;
+}
+.c-border{
+    border: 1px solid orangered;
+}
+.cart-container{
+    background-color: rgb(247, 226, 188);
+}
