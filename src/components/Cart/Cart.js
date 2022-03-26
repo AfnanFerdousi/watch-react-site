@@ -9,9 +9,14 @@ const Cart = ({ cart, handleReset, handleRandom }) => {
             <h5>Selected Item: </h5>
             <br />
             {
-                cart.map(product => <h5 key={product.id}>{product.name}</h5>)
+                cart.map(product => [
+                    <div className="d-flex my-1">
+                        <img className='w-25 ' src={product.img} alt="books" />
+                        <h6 className='ms-2 pt-4' key={product.id}>{product.name}</h6>
+                    </div>
+                ] )
             }
-            <div className="">
+            <div className="mt-3">
                 <button onClick={handleRandom} className='btn btn-outline-success'>Choose One</button>
                 <br />
                 <button onClick={handleReset} className='btn btn-outline-danger mt-2'>Reset</button>

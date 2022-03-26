@@ -30,8 +30,8 @@ const Card = () => {
         setCart([cart[parseInt(Math.random() * cart.length)]])
     } 
     return (
-        <div className='shop-container container d-flex'>
-            <div className="products-container row col-md-9 p-border">
+        <div className='shop-container container d-md-flex'>
+            <div className="products-container row col-md-9 p-border col-sm-12">
                 {
                     products.map(product => <Product
                         key={product.id}
@@ -39,7 +39,7 @@ const Card = () => {
                     ></Product>)
                 }
             </div>
-            <div className="cart-container c-border px-4 py-3 mx-4 col-md-3">
+            <div className="cart-container c-border px-4 py-3 mx-4 col-md-3 col-sm-12">
                 <Cart cart={cart} handleReset={handleReset} handleRandom={handleRandom} ></Cart>
             </div>
         </div>
