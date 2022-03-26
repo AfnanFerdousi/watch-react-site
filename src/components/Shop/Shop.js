@@ -6,6 +6,7 @@ import './Shop.css'
 const Card = () => {
     const [products, setProducts] = useState([]);
     const [cart, setCart] = useState([]);
+    let intialValue = [];
 
     useEffect(() => {
         fetch('data.json')
@@ -13,15 +14,24 @@ const Card = () => {
             .then(data => setProducts(data))
     }, []);
     const handleAddToCart = (product) => {
-        const newCart = [...cart, product];
-        setCart(newCart);
+        setCart([...cart, {
+            name: product.name,
+            id: product.id,
+            img: product.img
+
+        }]);
+
     }
-    const handleReset = (cart) => {
-        
+    const handleReset = () => {
+        setCart(intialValue)
     }
+
+    const handleRandom = () => {
+        setCart([cart[parseInt(Math.random() * cart.length)]])
+    } 
     return (
         <div className='shop-container container d-flex'>
-            <div className="products-container row col-md-8 p-border">
+            <div className="products-container row col-md-9 p-border">
                 {
                     products.map(product => <Product
                         key={product.id}
@@ -29,10 +39,8 @@ const Card = () => {
                     ></Product>)
                 }
             </div>
-            <div className="cart-container c-border px-4 py-3 mx-4 col-md-4">
-                <Cart cart={cart}>
-
-                </Cart>
+            <div className="cart-container c-border px-4 py-3 mx-4 col-md-3">
+                <Cart cart={cart} handleReset={handleReset} handleRandom={handleRandom} ></Cart>
             </div>
         </div>
     );
