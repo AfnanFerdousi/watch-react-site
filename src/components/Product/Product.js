@@ -11,7 +11,7 @@ const Product = ({ product, handleAddToCart}) => {
             <div className="card-img-top">
                 <img className='w-100' src={img} alt="Book" />
             </div>       
-                
+                {/* Item Card */}
                 <div className="product-info">
                 <h4 className='mt-2 card-title'>{name}</h4>
                 <p className='card-subtitle'>Author: <span className='text-danger fw-bold'>Charlese Dickens</span></p>

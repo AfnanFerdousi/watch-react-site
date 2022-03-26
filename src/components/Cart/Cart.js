@@ -9,6 +9,7 @@ const Cart = ({ cart, handleReset, handleRandom }) => {
             <h5>Selected Item: </h5>
             <br />
             {
+                // Showing name and image in cart
                 cart.map(product => [
                     <div className="d-flex my-1">
                         <img className='w-25 ' src={product.img} alt="books" />
@@ -17,8 +18,10 @@ const Cart = ({ cart, handleReset, handleRandom }) => {
                 ] )
             }
             <div className="mt-3">
+                {/* Choosing item randomly from cart */}
                 <button onClick={handleRandom} className='btn btn-outline-success'>Choose One</button>
                 <br />
+                {/* Clearing cart */}
                 <button onClick={handleReset} className='btn btn-outline-danger mt-2'>Reset</button>
             </div>            
         </div>
