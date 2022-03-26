@@ -2,5 +2,6 @@
     border: 1px solid orangered;
 }
 .cart-container{
+    position: sticky;
     background-color: rgb(247, 226, 188);
 }
